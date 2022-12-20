@@ -9,3 +9,11 @@ $value = $i.value
 write-host "$key";
 write-host "$value";
 }
+ Another solution we can try from hashtable
+
+$hash = @{}
+$hash.add("a","a")
+$hash.add("b","b")
+$hash.add("c","c")
+
+$values = $hash.value
